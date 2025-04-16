@@ -12,8 +12,6 @@
   },
   "dependencies": {
     "@dotlottie/react-player": "^1.6.19",
-    "@expo-google-fonts/poppins": "^0.2.3",
-    "@expo-google-fonts/space-grotesk": "^0.2.3",
     "@expo/vector-icons": "^14.0.0",
     "@lucide/lab": "^0.1.2",
     "@react-native-picker/picker": "^2.6.1",
@@ -25,7 +23,6 @@
     "expo-auth-session": "~5.4.0",
     "expo-av": "~13.10.5",
     "expo-blur": "~12.9.2",
-    "expo-camera": "~14.0.5",
     "expo-clipboard": "^7.0.1",
     "expo-constants": "~15.4.5",
     "expo-device": "^7.0.3",

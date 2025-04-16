@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, Text, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, Platform } from 'react-native'; // Added Platform import
 import { LinearGradient } from 'expo-linear-gradient';
 import { Trophy, Star, Sparkles } from 'lucide-react-native';
 import Animated, {

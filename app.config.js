@@ -32,13 +32,7 @@ export default {
       favicon: "./assets/images/favicon.png"
     },
     plugins: [
-      "expo-router",
-      [
-        "expo-camera",
-        {
-          "cameraPermission": "Allow Jungle Squad to access your camera to take profile pictures and share achievements."
-        }
-      ]
+      "expo-router"
     ],
     experiments: {
       typedRoutes: true,
@@ -49,7 +43,7 @@ export default {
         origin: "https://academy.junglesquad.com"
       },
       eas: {
-        projectId: "vaswavxammksguwnpwdr"
+        projectId: "vaswavxammksguwnpwdr" // Ensure this is the correct EAS project ID
       }
     }
   }

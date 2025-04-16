@@ -47,7 +47,6 @@ import * as ImagePicker from 'expo-image-picker';
 import { useChat } from '@/hooks/useChat';
 import { useAuth } from '@/hooks/useAuth';
 import { getAdaptedPrompt, getTutorExamples } from '@/lib/tutorPrompts';
-import { Camera } from 'expo-camera';
 
 // Map of tutors to their themes
 const TUTOR_THEMES = {
